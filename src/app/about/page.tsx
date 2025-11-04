@@ -52,12 +52,12 @@ export default function About() {
         </ul>
         </div>
         
-        <img src="/media/srinibabu.jpg" />
+        <img src="/media/youtubebanner.jpg" />
       </section>
 
       <section>
         
-        <img src="/media/srinibabu.jpg" />
+        <img src="/media/happybirthday.jpg" />
         <div>
         <h3 style={{ fontSize: 18, marginBottom: 8 }}>Media & YouTube</h3>
         <p>
@@ -94,7 +94,7 @@ export default function About() {
           </li>
         </ol>
         </div>
-        <img src="/media/srinibabu.jpg" />
+        <img src="/media/lalithasahasthranaamam.jpg" />
       </section>
 
       <section>

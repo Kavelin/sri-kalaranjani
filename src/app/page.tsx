@@ -14,7 +14,7 @@ export default function Home() {
             Shri Vishnu Sahasranamam Dasa Sahasra Galarchana
           </h1>
 
-          <a href="/contact" className="hero-cta">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScUoTf033ZS5HNZKV3mOHrXojs1Ij4h86UJUltGE54r2GCU3A/viewform?embedded=true" className="hero-cta">
             Register Here
           </a>
           <p>
