@@ -1,0 +1,10 @@
+section{
+    display:flex;
+    justify-content: space-between;
+}
+section img {
+    width:50%;
+}
+section div {
+    padding:16px;
+}

@@ -1,0 +1,116 @@
+:root {
+  --primary: #aedafa;
+  --secondary: #85175b;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background: #fff;
+}
+
+nav {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw;
+  position:sticky;
+  top:0;
+  background:white;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--secondary);
+  font-weight: bolder;
+  font-size: large;
+  white-space: nowrap;
+  text-overflow: clip;
+  padding:0 8px;
+}
+.nav-left {
+    max-width:50%;
+}
+.nav-right {
+    max-width:50%;
+}
+
+main {
+  min-height: 100vh;
+}
+
+footer {
+  background: white;
+  width: 100%;
+  bottom: 0;
+}
+
+footer > fieldset {
+  border: var(--secondary) 3px solid;
+  border-bottom: none;
+}
+
+footer > fieldset > legend {
+  color: var(--secondary);
+}
+
+.page {
+  min-height: 100vh;
+  padding: 40px 16px;
+}
+
+.hero {
+  background: linear-gradient(0deg, var(--primary) 0%, #fff 100%);
+  padding: 10vh 0;
+  color: black;
+  max-width: 100vw;
+}
+
+.hero-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-container img {
+    max-height: 40vh;
+}
+
+.hero-container p {
+  font-weight:500;
+  padding:0 10%;
+  box-sizing: border-box;
+}
+.hero-title {
+  font-size: -webkit-xxx-large;
+  color:var(--secondary)
+}
+
+.hero-cta {
+    cursor:pointer;
+    font-weight:bolder;
+    font-size:larger;
+    color:var(--secondary);
+}
+
+.cta-section {
+  background: var(--primary);
+  color: black;
+  padding: 48px 0;
+}
