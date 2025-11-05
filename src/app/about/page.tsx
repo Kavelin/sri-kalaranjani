@@ -62,8 +62,7 @@ export default function About() {
         <h3 style={{ fontSize: 18, marginBottom: 8 }}>Media & YouTube</h3>
         <p>
           Programmes telecast on Vendhar TV and Sri Sankara TV. YouTube channel:
-          "srikalaranjani school of music" — 100+ videos uploaded in personal
-          interest (over 120 videos uploaded and 2500+ subscribers currently).
+          "Sri Kalaranjani School of Music" — 200+ videos uploaded and 1000+ subscribers currently.
         </p>
         </div>
         

@@ -10,6 +10,7 @@ export default function Home() {
 
       <section className="cta-section">
         <div className="hero-container">
+          <iframe src="https://www.youtube.com/embed/_SsKuHN2bMo?si=_tvY09FOOGFEPDgm" title="Bhakthi Ranjani" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
           <h1>
             Shri Vishnu Sahasranamam Dasa Sahasra Galarchana
           </h1>
@@ -34,8 +35,7 @@ export default function Home() {
             vast, I believe—with the grace of the Lord—it can surely be
             realized. I call upon <b>100 devoted individuals</b> to walk with me in
             this <b>Mahayagna</b> today: some to sing, some to listen, and some to
-            serve. <br /><br /> Together, we can make this offering a reality. In this
-            <b>Kaliyuga</b> , nothing is greater than the remembrance of the holy
+            serve. <br /><br /> Together, we can make this offering a reality. In this <b>Kaliyuga</b> , nothing is greater than the remembrance of the holy
             name of Vishnu. If we dedicate ourselves for even one year—365
             days—in His remembrance, our lives will be blessed and purified.
             With folded hands and faith in His grace, I invite you to join me in
