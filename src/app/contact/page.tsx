@@ -27,8 +27,11 @@ export default function Contact() {
         Email: <a target="_blank" href="mailto:dev.velp@gmail.com">dev.velp@gmail.com</a>
       </h3>
       <br />
-      <h2>Veda Srikath, Canada Coordinator</h2>
+      <h2>Veda Srikanth, Canada Coordinator</h2>
       <h3>Phone: +1 (343) 576-3621</h3>
+      <h3>
+        Email: <a target="_blank" href="mailto:VedaSrikanthan@gmail.com">VedaSrikanthan@gmail.com</a>
+      </h3>
       {/*<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScUoTf033ZS5HNZKV3mOHrXojs1Ij4h86UJUltGE54r2GCU3A/viewform?embedded=true"></iframe>*/}
     </div>
   );
