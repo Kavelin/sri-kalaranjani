@@ -24,9 +24,8 @@ export default function About() {
       </section>
 
       <section>
-        
         <img src="/media/vanijayram.jpg" />
-        <div style={{textAlign:'left'}}>
+        <div style={{ textAlign: "left" }}>
           <h1>Performances</h1>
           <p>
             Vocal concert at Arasakesari Sivan Temple, Singapore (2004). Vocal
@@ -39,59 +38,60 @@ export default function About() {
       </section>
 
       <section>
-        
         <div>
-        <h3 style={{ fontSize: 18, marginBottom: 8 }}>
-          Foundations & Institutions
-        </h3>
-        <ul>
-          <li>Kalaranjani Classical Devotional and Cine Orchestra — 2004</li>
-          <li>Kalaranjani School of Music, Chennai — 2006</li>
-          <li>Kalaranjani Devotional Music Centre — 2006</li>
-          <li>Kalaranjani Charitable Trust — 2006</li>
-        </ul>
+          <h3 style={{ fontSize: 18, marginBottom: 8 }}>
+            Foundations & Institutions
+          </h3>
+          <ul>
+            <li>Kalaranjani Classical Devotional and Cine Orchestra — 2004</li>
+            <li>Kalaranjani School of Music, Chennai — 2006</li>
+            <li>Kalaranjani Devotional Music Centre — 2006</li>
+            <li>Kalaranjani Charitable Trust — 2006</li>
+          </ul>
         </div>
-        
+
         <img src="/media/youtubebanner.jpg" />
       </section>
 
       <section>
-        
         <img src="/media/happybirthday.jpg" />
         <div>
-        <h3 style={{ fontSize: 18, marginBottom: 8 }}>Media & YouTube</h3>
-        <p>
-          Programmes telecast on Vendhar TV and Sri Sankara TV. YouTube channel:
-          "Sri Kalaranjani School of Music" — 200+ videos uploaded and 1000+ subscribers currently.
-        </p>
+          <h3 style={{ fontSize: 18, marginBottom: 8 }}>Media & YouTube</h3>
+          <p>
+            Programmes telecast on Vendhar TV and Sri Sankara TV. <br /> YouTube
+            channel:&nbsp;
+            <a href="https://www.youtube.com/@srikalaranjanischoolofmusi9057">
+              Sri Kalaranjani School of Music
+            </a><br />
+            200+ videos uploaded and 1000+ subscribers currently.
+          </p>
         </div>
-        
       </section>
 
       <section>
         <div>
-        <h3 style={{ fontSize: 18, marginBottom: 8 }}>
-          Notable Projects & Events
-        </h3>
-        <ol>
-          <li>
-            Amirthavarshini Raga Tharangini — 12 hours non-stop programme
-            (telecast on Sri Sankara TV)
-          </li>
-          <li>Nathatharangini programme (Sri Sankara TV)</li>
-          <li>
-            Padma Vibhushan Dr. M.S. Subbulakshmi's 107th birthday function with
-            107 artists
-          </li>
-          <li>
-            Padma Vibhushan Dr. M. Balamuralikrishna's 95th birthday celebration
-            — 120 artists participated
-          </li>
-          <li>
-            Sri Lalitha Sahasranamam composed with 21 ragas, performed by 1000
-            artists on 22.6.25
-          </li>
-        </ol>
+          <h3 style={{ fontSize: 18, marginBottom: 8 }}>
+            Notable Projects & Events
+          </h3>
+          <ol>
+            <li>
+              Amirthavarshini Raga Tharangini — 12 hours non-stop programme
+              (telecast on Sri Sankara TV)
+            </li>
+            <li>Nathatharangini programme (Sri Sankara TV)</li>
+            <li>
+              Padma Vibhushan Dr. M.S. Subbulakshmi's 107th birthday function
+              with 107 artists
+            </li>
+            <li>
+              Padma Vibhushan Dr. M. Balamuralikrishna's 95th birthday
+              celebration — 120 artists participated
+            </li>
+            <li>
+              Sri Lalitha Sahasranamam composed with 21 ragas, performed by 1000
+              artists on 22.6.25
+            </li>
+          </ol>
         </div>
         <img src="/media/lalithasahasthranaamam.jpg" />
       </section>

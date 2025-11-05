@@ -40,9 +40,9 @@ export default function RootLayout({
 
             <div>
               <span>
-                <a href="mailto:srinimusic@gmail.com">srinimusic@gmail.com</a>,
+                <a target="_blank" href="mailto:srinimusic@gmail.com">srinimusic@gmail.com</a>,
                 Phone: +91 75699 90821 / +91 9444532409,&nbsp;
-                <a href="https://www.youtube.com/@srikalaranjanischoolofmusi9057">Youtube</a>
+                <a target="_blank" href="https://www.youtube.com/@srikalaranjanischoolofmusi9057">Youtube</a>
               </span>
             </div>
 

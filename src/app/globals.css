@@ -26,6 +26,10 @@ body {
   background: #fff;
 }
 
+a {
+  color: var(--secondary);
+}
+
 nav {
   flex-direction: row;
   display: flex;
@@ -57,7 +61,7 @@ main {
 }
 
 footer {
-  background: white;
+  background: var(--primary);
   width: 100%;
   bottom: 0;
 }
@@ -74,6 +78,7 @@ footer > fieldset > legend {
 .page {
   min-height: 100vh;
   padding: 40px 16px;
+  background: linear-gradient(0deg, var(--primary) 0%, #fff 100%);
 }
 
 .hero {
@@ -110,11 +115,106 @@ footer > fieldset > legend {
   height: 30vh;
 }
 
+.hero-main-title {
+  margin: 10vh 0 0 0;
+  height: 10vh;
+}
+
+.hero-down {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-down button {
+  background:none;
+  border:none;
+  font-size:xx-large;
+  color:var(--secondary);
+  font-weight:1000;
+  animation: button cubic-bezier(0.19, 1, 0.22, 1) infinite 2s;
+}
+
+@keyframes button {
+  0% {
+    opacity:100%;
+    transform:translateY(0%);
+  }
+  50% {
+    opacity: 0%;
+    transform:translateY(100%);
+  }
+  51% {
+    transform:translateY(-10%);
+  }
+  100% {
+    opacity: 100%;
+    transform:translateY(-5%);
+  }
+}
+.hero-main-title::before {
+  content: "SRI KALARANJANI SCHOOL OF MUSIC";
+}
+@media only screen and (max-width: 1000px) {
+  .hero-main-title::before {
+    content: "SRI KALARANJANI";
+  }
+}
+
 .hero-cta {
   cursor: pointer;
   font-weight: bolder;
   font-size: larger;
   color: var(--secondary);
+  text-decoration: none;
+
+  animation: spacing cubic-bezier(0.19, 1, 0.22, 1) infinite 4s;
+}
+@keyframes spacing {
+  0%,
+  100% {
+    letter-spacing: normal;
+    opacity: 80%;
+  }
+  20% {
+    opacity: 100%;
+    letter-spacing: -0.5px;
+  }
+}
+
+.hero-cta::before {
+  content: "→";
+  padding: 8px;
+  animation: left cubic-bezier(0.19, 1, 0.22, 1) infinite 4s;
+}
+
+@keyframes left {
+  0%,
+  100% {
+    padding-right: 8px;
+    opacity: 80%;
+  }
+  20% {
+    opacity: 100%;
+    padding-right: 0px;
+  }
+}
+.hero-cta::after {
+  content: "←";
+  padding: 8px;
+  animation: right cubic-bezier(0.19, 1, 0.22, 1) infinite 4s;
+}
+
+@keyframes right {
+  0%,
+  100% {
+    padding-left: 8px;
+    opacity: 80%;
+  }
+  20% {
+    opacity: 100%;
+    padding-left: 0px;
+  }
 }
 
 .cta-section {
