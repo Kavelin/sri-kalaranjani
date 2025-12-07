@@ -24,7 +24,7 @@ export default function Contact() {
       <h2>Kavin Velmurugan, US Coordinator</h2>
       <h3>Phone: +1 (571) 283-5287</h3>
       <h3>
-        Email: <a target="_blank" href="mailto:dev.velp@gmail.com">dev.velp@gmail.com</a>
+        Email: <a target="_blank" href="mailto:kavin@srikalaranjanischoolofmusic.com">kavin@srikalaranjanischoolofmusic.com</a>
       </h3>
       <br />
       <h2>Veda Srikanth, Canada Coordinator</h2>

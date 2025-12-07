@@ -31,7 +31,9 @@ a {
 }
 
 nav {
+  z-index:1000;
   flex-direction: row;
+  padding:8px;
   display: flex;
   justify-content: space-between;
   max-width: 100vw;
@@ -133,6 +135,10 @@ footer > fieldset > legend {
   color:var(--secondary);
   font-weight:1000;
   animation: button cubic-bezier(0.19, 1, 0.22, 1) infinite 2s;
+}
+
+ul {
+  list-style: none;
 }
 
 @keyframes button {
