@@ -6,9 +6,7 @@ export default function Home() {
           <img src="/media/logo.gif" />
           <h1 className="hero-title hero-main-title"></h1>
           <div className="hero-down">
-            <button>
-              ↓
-            </button>
+            <button>↓</button>
           </div>
         </div>
       </header>
@@ -25,22 +23,27 @@ export default function Home() {
           </h1>
 
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScUoTf033ZS5HNZKV3mOHrXojs1Ij4h86UJUltGE54r2GCU3A/viewform?embedded=true"
-            className="hero-cta" target="_blank"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfsFvYiZITwHNIH9cs_snVLulrBUZiiTau4jnmR9qtQ0XUeSQ/viewform"
+            className="hero-cta"
+            target="_blank"
           >
             Register Here!
           </a>
           <p>
             SRI VISHNU SAHASRANAMAM IN RAGAMALIKA COMPOSED BY DR.J.SRINIBABU
-            FOUNDER DASA SAHASRAGALARCHANA WITH 10,00,000 WORLDWIDE DEVOTEES
-            PLANNING TO PERFORM IN ONE ROOF PROGRAMME <br />
+            DASA SAHASRAGALARCHANA WITH 10,00,000 WORLDWIDE DEVOTEES
+            PLANNING TO PERFORM IN ONE ROOF! <br />
             <br />
-            WILL BE IN THE MIDDLE OF MUSIC SEASON 26-27 <br />
+            IN THE MIDDLE OF MUSIC SEASON 26-27 <br />
             <br />
-            ONLINE FREE CLASSES WILL BE STARTS FROM JANUARY.2026 REGISTRATION
-            OPENED FROM 15TH OCT.2025 RS.111/- FOR INDIANS AND $3 DOLLARS ONLY
-            FOR ABROAD STUDENT NO AGE BAR. <br /> <br />
-            ALL ARE WELCOME TO GET THE SHOWER OF LORD VENKATESWARA IN THE UNIQUE
+            ONLINE FREE CLASSES WILL START IN JANUARY.2026 <br />
+            REGISTRATION OPENED FROM 15TH OCT.2025:{" "}
+            <ul>
+              <li>RS.111/- FOR INDIANS </li>
+              <li>$3 DOLLARS ONLY FOR ABROAD STUDENT</li>{" "}
+            </ul>{" "}
+            NO AGE BAR. <br /> <br />
+            ALL ARE WELCOME TO GET THE SHOWER OF LORD VENKATESWARA IN UNIQUE
             RAGAMS <br /> <br />
           </p>
           <p>
