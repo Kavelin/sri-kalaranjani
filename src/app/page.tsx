@@ -13,14 +13,18 @@ export default function Home() {
 
       <section className="cta-section">
         <div className="hero-container">
+          <h1 className="hero-title">Margazhi Isai Vizha 2026!</h1>
+          <h3></h3>
+          <iframe className="hero-pdf" src="/media/margazhiflyer.pdf#toolbar=0"></iframe>
+          <h1 className="hero-title">
+            Shri Vishnu Sahasranamam Dasa Sahasra Galarchana
+          </h1>
+          
           <iframe
             src="https://www.youtube.com/embed/_SsKuHN2bMo?si=_tvY09FOOGFEPDgm&amp;rel=0&amp;controls=0&amp;modestbranding=1&amp;loop=1&amp;showinfo=0&amp;wmode=transparent"
             title="Bhakthi Ranjani"
             allow="clipboard-write; encrypted-media; gyroscope;"
-          ></iframe>
-          <h1 className="hero-title">
-            Shri Vishnu Sahasranamam Dasa Sahasra Galarchana
-          </h1>
+          ></iframe><br />
 
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSfsFvYiZITwHNIH9cs_snVLulrBUZiiTau4jnmR9qtQ0XUeSQ/viewform"

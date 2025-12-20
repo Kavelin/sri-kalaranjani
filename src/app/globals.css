@@ -19,6 +19,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: var(--secondary);
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -114,7 +115,12 @@ footer > fieldset > legend {
   font-size: -webkit-xxx-large;
   color: var(--secondary);
   margin: 10vh 0;
-  height: 30vh;
+  /*height: 30vh;*/
+}
+
+.hero-pdf {
+  height:50vh;
+  width:100w;
 }
 
 .hero-main-title {
