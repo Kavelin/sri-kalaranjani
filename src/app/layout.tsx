@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   keywords: [
     "Carnatic music",
     "Sri Kalaranjani",
+    "Srikalaranjani",
     "Vocal training",
     "Violin",
     "Mridangam",
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
     "Sri Kalaranjani School of Music",
     "Vishnu Sahasranaamam",
     "vishnu sahasranamam",
+    "lalitha sahasranamam",
     "srikalaranjanischoolofmusic.com",
     "srikalaranjanischoolofmusic",
     "Chennai",

@@ -1,3 +1,4 @@
+import Carousel from "@/components/Carousel";
 export default function Home() {
   return (
     <div>
@@ -15,7 +16,7 @@ export default function Home() {
         <div className="hero-container">
           <h1 className="hero-title">Margazhi Isai Vizha 2026!</h1>
           <h3></h3>
-          <iframe className="hero-pdf" src="/media/margazhiflyer.pdf#toolbar=0"></iframe>
+          <Carousel directory="media/margazhi-isai-vizha" alt="Margazhi Isai Vizha 2026" />
           <h1 className="hero-title">
             Shri Vishnu Sahasranamam Dasa Sahasra Galarchana
           </h1>
