@@ -38,18 +38,10 @@ export default function Carousel({ directory, alt }: CarouselProps) {
     setCurrentIndex((i) => (i + images.length - 1) % images.length);
   };
 
-  if (loading) {
-    return <div className="carousel-loading">Loading...</div>;
-  }
-
-  if (images.length === 0) {
-    return <div className="carousel-empty">No images found</div>;
-  }
-
   return (
     <div className="carousel-container">
       <div className="carousel-image-wrapper" 
-        onClick={nextImage}>
+        onMouseUp={nextImage} onMouseDown={e => e.preventDefault()} onTouchStart={e => e.preventDefault()} onTouchEnd={nextImage}>
         <Image
           src={images[currentIndex]}
           alt={`${alt} ${currentIndex + 1}`}

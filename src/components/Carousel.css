@@ -40,7 +40,7 @@
 }
 
 .carousel-dot.active {
-  background-color: #1f2937;
+  background-color: var(--secondary);
   width: 2rem;
 }
 
@@ -48,7 +48,7 @@
   text-align: center;
   margin-top: 0.5rem;
   font-size: 0.875rem;
-  color: #4b5563;
+  color: var(--secondary);
 }
 
 .carousel-loading,
