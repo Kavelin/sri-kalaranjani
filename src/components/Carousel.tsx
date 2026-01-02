@@ -40,8 +40,7 @@ export default function Carousel({ directory, alt }: CarouselProps) {
 
   return (
     <div className="carousel-container">
-      <div className="carousel-image-wrapper" 
-        onMouseUp={nextImage} onMouseDown={e => e.preventDefault()} onTouchStart={e => e.preventDefault()} onTouchEnd={nextImage}>
+      <div className="carousel-image-wrapper">
         <Image
           src={images[currentIndex]}
           alt={`${alt} ${currentIndex + 1}`}
@@ -49,6 +48,12 @@ export default function Carousel({ directory, alt }: CarouselProps) {
           priority
         />
       </div>
+      <button className="carousel-button prev" onClick={prevImage} aria-label="Previous Image">
+        ‹
+      </button>
+      <button className="carousel-button next" onClick={nextImage} aria-label="Next Image">
+        ›
+      </button>
 
 
       <div className="carousel-dots">
