@@ -6,10 +6,11 @@ import './Carousel.css';
 
 interface CarouselProps {
   directory: string;
-  alt?: string;
+  alt: string;
+  id: string;
 }
 
-export default function Carousel({ directory, alt }: CarouselProps) {
+export default function Carousel({ directory, alt, id }: CarouselProps) {
   const [images, setImages] = useState<string[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -39,7 +40,7 @@ export default function Carousel({ directory, alt }: CarouselProps) {
   };
 
   return (
-    <div className="carousel-container">
+    <div className="carousel-container" id={id}>
       <div className="carousel-image-wrapper">
         <Image
           src={images[currentIndex]}
